@@ -1,0 +1,11 @@
+C:\Users\Dave-\OneDrive\WeChatArticle\C#\微信公众号\SCADAPlatform\SCADAPlatform\bin\Debug\SCADAPlatform.exe.config
+C:\Users\Dave-\OneDrive\WeChatArticle\C#\微信公众号\SCADAPlatform\SCADAPlatform\bin\Debug\SCADAPlatform.exe
+C:\Users\Dave-\OneDrive\WeChatArticle\C#\微信公众号\SCADAPlatform\SCADAPlatform\bin\Debug\SCADAPlatform.pdb
+C:\Users\Dave-\OneDrive\WeChatArticle\C#\微信公众号\SCADAPlatform\SCADAPlatform\obj\Debug\SCADAPlatform.csproj.AssemblyReference.cache
+C:\Users\Dave-\OneDrive\WeChatArticle\C#\微信公众号\SCADAPlatform\SCADAPlatform\obj\Debug\SCADAPlatform.FrmMain.resources
+C:\Users\Dave-\OneDrive\WeChatArticle\C#\微信公众号\SCADAPlatform\SCADAPlatform\obj\Debug\SCADAPlatform.Properties.Resources.resources
+C:\Users\Dave-\OneDrive\WeChatArticle\C#\微信公众号\SCADAPlatform\SCADAPlatform\obj\Debug\SCADAPlatform.csproj.GenerateResource.cache
+C:\Users\Dave-\OneDrive\WeChatArticle\C#\微信公众号\SCADAPlatform\SCADAPlatform\obj\Debug\SCADAPlatform.csproj.CoreCompileInputs.cache
+C:\Users\Dave-\OneDrive\WeChatArticle\C#\微信公众号\SCADAPlatform\SCADAPlatform\obj\Debug\SCADAPlatform.exe
+C:\Users\Dave-\OneDrive\WeChatArticle\C#\微信公众号\SCADAPlatform\SCADAPlatform\obj\Debug\SCADAPlatform.pdb
+C:\Users\Dave-\OneDrive\WeChatArticle\C#\微信公众号\SCADAPlatform\SCADAPlatform\obj\Debug\SCADAPlatform.exe.config
