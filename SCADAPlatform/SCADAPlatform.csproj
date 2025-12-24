@@ -46,11 +46,53 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Form\FrmAccount.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form\FrmAccount.Designer.cs">
+      <DependentUpon>FrmAccount.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form\FrmAlarm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form\FrmAlarm.Designer.cs">
+      <DependentUpon>FrmAlarm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form\FrmDashboard.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form\FrmDashboard.Designer.cs">
+      <DependentUpon>FrmDashboard.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form\FrmHistory.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form\FrmHistory.Designer.cs">
+      <DependentUpon>FrmHistory.cs</DependentUpon>
+    </Compile>
     <Compile Include="FrmMain.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="FrmMain.Designer.cs">
       <DependentUpon>FrmMain.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form\FrmReport.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form\FrmReport.Designer.cs">
+      <DependentUpon>FrmReport.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form\FrmSetting.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form\FrmSetting.Designer.cs">
+      <DependentUpon>FrmSetting.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form\FrmTrend.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form\FrmTrend.Designer.cs">
+      <DependentUpon>FrmTrend.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -125,5 +167,6 @@
   <ItemGroup>
     <None Include="bin\Debug\Images\changeresponse .png" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

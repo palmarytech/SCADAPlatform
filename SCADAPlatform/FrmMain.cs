@@ -12,9 +12,133 @@ namespace SCADAPlatform
 {
     public partial class FrmMain : Form
     {
+        private Button _currentBtn;
+        private Panel _leftBorderBtn;
+        private Form _currentChildForm;
+
+
         public FrmMain()
         {
             InitializeComponent();
+            _leftBorderBtn = new Panel();
+            _leftBorderBtn.Size = new Size(10, 68);
+            panel_Menu.Controls.Add(_leftBorderBtn);
         }
+
+
+
+        #region 窗体切换方法
+        private struct RgbColors
+        {
+            public static Color color1 = Color.FromArgb(172, 126, 241);
+            public static Color color2 = Color.FromArgb(249, 118, 176);
+            public static Color color3 = Color.FromArgb(253, 138, 114);
+            public static Color color4 = Color.FromArgb(95, 77, 221);
+            public static Color color5 = Color.FromArgb(249, 88, 155);
+            public static Color color6 = Color.FromArgb(24, 161, 251);
+        }
+
+        private void ActiveButton(object senderBtn, Color color) //
+        {
+            if (senderBtn != null)
+            {
+                DisableButton();
+                _currentBtn = (Button)senderBtn;
+                _currentBtn.BackColor = Color.FromArgb(37, 36, 81);
+                _currentBtn.ForeColor = color;
+                _currentBtn.TextAlign = ContentAlignment.MiddleCenter;
+                _currentBtn.TextImageRelation = TextImageRelation.TextBeforeImage;
+                _currentBtn.ImageAlign = ContentAlignment.MiddleRight;
+                _currentBtn.Padding = new Padding(0, 0, 20, 0);
+
+                _leftBorderBtn.BackColor = color;
+                _leftBorderBtn.Location = new Point(3, _currentBtn.Location.Y);
+                _leftBorderBtn.Visible = true;
+                _leftBorderBtn.BringToFront();
+            }
+        }
+
+        private void OpenChildForm(Form childForm)
+        {
+            if (childForm == null) return;
+            // ===== 新增：如果已经是当前子窗体，直接返回，不重复操作 =====
+            if (_currentChildForm == childForm && panel_Main.Controls.Contains(childForm))
+            {
+                childForm.BringToFront();
+                return;
+            }
+            if (_currentChildForm != null)
+            {
+                _currentChildForm.Close();
+                panel_Main.Controls.Remove(_currentChildForm);
+            }
+            _currentChildForm = childForm;
+            childForm.TopLevel = false;
+            childForm.FormBorderStyle = FormBorderStyle.None;
+            childForm.Dock = DockStyle.Fill;
+            panel_Main.Controls.Add(childForm);
+            panel_Main.Tag = childForm;
+            childForm.BringToFront();
+            childForm.Show();
+        }
+
+        private void DisableButton()
+        {
+            if (_currentBtn != null)
+            {
+                _currentBtn.BackColor = Color.FromArgb(31, 30, 68);
+                _currentBtn.ForeColor = Color.Gainsboro;
+                _currentBtn.TextAlign = ContentAlignment.MiddleLeft;
+                _currentBtn.TextImageRelation = TextImageRelation.ImageBeforeText;
+                _currentBtn.ImageAlign = ContentAlignment.MiddleLeft;
+                _currentBtn.Padding = new Padding(20, 0, 0, 0);
+            }
+        }
+
+        #endregion
+
+        #region 按钮Click事件
+        private void btn_Dashboard_Click(object sender, EventArgs e)
+        {
+            ActiveButton(sender, RgbColors.color1);
+            OpenChildForm(new FrmDashboard());
+        }
+
+        private void btn_Trend_Click(object sender, EventArgs e)
+        {
+            ActiveButton(sender, RgbColors.color2);
+            OpenChildForm(new FrmTrend());
+        }
+
+        private void btn_Setting_Click(object sender, EventArgs e)
+        {
+            ActiveButton(sender, RgbColors.color3);
+            OpenChildForm(new FrmSetting());
+        }
+
+        private void btn_History_Click(object sender, EventArgs e)
+        {
+            ActiveButton(sender, RgbColors.color4);
+            OpenChildForm(new FrmHistory());
+        }
+
+        private void btn_Alarm_Click(object sender, EventArgs e)
+        {
+            ActiveButton(sender, RgbColors.color5);
+            OpenChildForm(new FrmAlarm());
+        }
+
+        private void btn_Report_Click(object sender, EventArgs e)
+        {
+            ActiveButton(sender, RgbColors.color6);
+            OpenChildForm(new FrmReport());
+        }
+
+        private void btn_Account_Click(object sender, EventArgs e)
+        {
+            ActiveButton(sender, RgbColors.color1);
+            OpenChildForm(new FrmAccount());
+        } 
+        #endregion
     }
 }
