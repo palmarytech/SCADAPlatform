@@ -67,9 +67,9 @@
             this.toolStripStatusLabel3,
             this.ssl_Login,
             this.ssl_DateTime});
-            this.statusBar.Location = new System.Drawing.Point(0, 709);
+            this.statusBar.Location = new System.Drawing.Point(0, 711);
             this.statusBar.Name = "statusBar";
-            this.statusBar.Size = new System.Drawing.Size(1280, 31);
+            this.statusBar.Size = new System.Drawing.Size(1280, 29);
             this.statusBar.TabIndex = 0;
             this.statusBar.Text = "statusStrip1";
             // 
@@ -79,7 +79,7 @@
             this.ssl_SerialState.Image = global::SCADAPlatform.Properties.Resources.serial;
             this.ssl_SerialState.Name = "ssl_SerialState";
             this.ssl_SerialState.Padding = new System.Windows.Forms.Padding(18, 0, 0, 0);
-            this.ssl_SerialState.Size = new System.Drawing.Size(124, 24);
+            this.ssl_SerialState.Size = new System.Drawing.Size(98, 24);
             this.ssl_SerialState.Text = "串口连接";
             // 
             // ssl_ResponseTime
@@ -87,13 +87,13 @@
             this.ssl_ResponseTime.ForeColor = System.Drawing.SystemColors.ButtonFace;
             this.ssl_ResponseTime.Image = global::SCADAPlatform.Properties.Resources.changeresponse_;
             this.ssl_ResponseTime.Name = "ssl_ResponseTime";
-            this.ssl_ResponseTime.Size = new System.Drawing.Size(114, 24);
+            this.ssl_ResponseTime.Size = new System.Drawing.Size(84, 24);
             this.ssl_ResponseTime.Text = "10000ms";
             // 
             // toolStripStatusLabel3
             // 
             this.toolStripStatusLabel3.Name = "toolStripStatusLabel3";
-            this.toolStripStatusLabel3.Size = new System.Drawing.Size(665, 24);
+            this.toolStripStatusLabel3.Size = new System.Drawing.Size(823, 24);
             this.toolStripStatusLabel3.Spring = true;
             this.toolStripStatusLabel3.Text = "toolStripStatusLabel3";
             // 
@@ -102,7 +102,7 @@
             this.ssl_Login.ForeColor = System.Drawing.SystemColors.ButtonFace;
             this.ssl_Login.Image = global::SCADAPlatform.Properties.Resources.loginu;
             this.ssl_Login.Name = "ssl_Login";
-            this.ssl_Login.Size = new System.Drawing.Size(145, 24);
+            this.ssl_Login.Size = new System.Drawing.Size(110, 24);
             this.ssl_Login.Text = "xxx未登录      ";
             // 
             // ssl_DateTime
@@ -111,7 +111,7 @@
             this.ssl_DateTime.Image = global::SCADAPlatform.Properties.Resources.time;
             this.ssl_DateTime.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.ssl_DateTime.Name = "ssl_DateTime";
-            this.ssl_DateTime.Size = new System.Drawing.Size(217, 24);
+            this.ssl_DateTime.Size = new System.Drawing.Size(150, 24);
             this.ssl_DateTime.Text = "2025-12-15 15:44:59";
             this.ssl_DateTime.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
@@ -129,7 +129,7 @@
             this.panel_Menu.Dock = System.Windows.Forms.DockStyle.Left;
             this.panel_Menu.Location = new System.Drawing.Point(0, 0);
             this.panel_Menu.Name = "panel_Menu";
-            this.panel_Menu.Size = new System.Drawing.Size(240, 709);
+            this.panel_Menu.Size = new System.Drawing.Size(240, 711);
             this.panel_Menu.TabIndex = 1;
             // 
             // btn_Account
@@ -303,9 +303,11 @@
             this.panel_TitleBar.Name = "panel_TitleBar";
             this.panel_TitleBar.Size = new System.Drawing.Size(1040, 65);
             this.panel_TitleBar.TabIndex = 2;
+            this.panel_TitleBar.MouseDown += new System.Windows.Forms.MouseEventHandler(this.panel_TitleBar_MouseDown);
             // 
             // btn_Minimize
             // 
+            this.btn_Minimize.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.btn_Minimize.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(26)))), ((int)(((byte)(24)))), ((int)(((byte)(58)))));
             this.btn_Minimize.FlatAppearance.BorderSize = 0;
             this.btn_Minimize.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
@@ -315,9 +317,11 @@
             this.btn_Minimize.Size = new System.Drawing.Size(27, 27);
             this.btn_Minimize.TabIndex = 1;
             this.btn_Minimize.UseVisualStyleBackColor = false;
+            this.btn_Minimize.Click += new System.EventHandler(this.btn_Minimize_Click);
             // 
             // btn_Maximize
             // 
+            this.btn_Maximize.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.btn_Maximize.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(26)))), ((int)(((byte)(24)))), ((int)(((byte)(58)))));
             this.btn_Maximize.FlatAppearance.BorderSize = 0;
             this.btn_Maximize.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
@@ -327,9 +331,11 @@
             this.btn_Maximize.Size = new System.Drawing.Size(27, 27);
             this.btn_Maximize.TabIndex = 1;
             this.btn_Maximize.UseVisualStyleBackColor = false;
+            this.btn_Maximize.Click += new System.EventHandler(this.btn_Maximize_Click);
             // 
             // btn_CloseWindow
             // 
+            this.btn_CloseWindow.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.btn_CloseWindow.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(26)))), ((int)(((byte)(24)))), ((int)(((byte)(58)))));
             this.btn_CloseWindow.FlatAppearance.BorderSize = 0;
             this.btn_CloseWindow.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
@@ -339,6 +345,7 @@
             this.btn_CloseWindow.Size = new System.Drawing.Size(27, 27);
             this.btn_CloseWindow.TabIndex = 1;
             this.btn_CloseWindow.UseVisualStyleBackColor = false;
+            this.btn_CloseWindow.Click += new System.EventHandler(this.btn_CloseWindow_Click);
             // 
             // label1
             // 
@@ -358,12 +365,12 @@
             this.panel_Main.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panel_Main.Location = new System.Drawing.Point(240, 65);
             this.panel_Main.Name = "panel_Main";
-            this.panel_Main.Size = new System.Drawing.Size(1040, 644);
+            this.panel_Main.Size = new System.Drawing.Size(1040, 646);
             this.panel_Main.TabIndex = 3;
             // 
             // FrmMain
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(13F, 28F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1280, 740);
             this.Controls.Add(this.panel_Main);

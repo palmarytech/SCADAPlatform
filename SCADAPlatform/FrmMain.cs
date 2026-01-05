@@ -4,6 +4,7 @@ using System.ComponentModel;
 using System.Data;
 using System.Drawing;
 using System.Linq;
+using System.Runtime.InteropServices;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
@@ -138,7 +139,40 @@ namespace SCADAPlatform
         {
             ActiveButton(sender, RgbColors.color1);
             OpenChildForm(new FrmAccount());
-        } 
+        }
+
+        //窗口关闭
+        private void btn_CloseWindow_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
+
+        //窗口最小化
+        private void btn_Minimize_Click(object sender, EventArgs e)
+        {
+            WindowState = FormWindowState.Minimized;
+        }
+
+        //窗口最大化
+        private void btn_Maximize_Click(object sender, EventArgs e)
+        {
+            WindowState = WindowState == FormWindowState.Normal ? FormWindowState.Maximized : FormWindowState.Normal;
+        }
+
+        //窗口拖动
+        [DllImport("user32.DLL", EntryPoint = "ReleaseCapture")]
+        private extern static void ReleaseCapture();
+        [DllImport("user32.DLL", EntryPoint = "SendMessage")]
+        private extern static void SendMessage(System.IntPtr hWnd, int wMsg, int wParam, int lParam);
+
+        private void panel_TitleBar_MouseDown(object sender, MouseEventArgs e)
+        {
+            ReleaseCapture();
+            SendMessage(this.Handle, 0x112, 0xf012, 0);
+        }
+
         #endregion
+
+
     }
 }
