@@ -8,6 +8,7 @@ using System.Runtime.InteropServices;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using Serilog;
 
 namespace SCADAPlatform
 {
@@ -103,6 +104,9 @@ namespace SCADAPlatform
         {
             ActiveButton(sender, RgbColors.color1);
             OpenChildForm(new FrmDashboard());
+
+            //测试Log
+            Log.Information("测试: {sender}", sender);
         }
 
         private void btn_Trend_Click(object sender, EventArgs e)

@@ -8,7 +8,6 @@ C:\Users\Dave-\OneDrive\WeChatArticle\C#\微信公众号\SCADAPlatform\SCADAPlat
 C:\Users\Dave-\OneDrive\WeChatArticle\C#\微信公众号\SCADAPlatform\SCADAPlatform\obj\Debug\SCADAPlatform.csproj.CoreCompileInputs.cache
 C:\Users\Dave-\OneDrive\WeChatArticle\C#\微信公众号\SCADAPlatform\SCADAPlatform\obj\Debug\SCADAPlatform.exe
 C:\Users\Dave-\OneDrive\WeChatArticle\C#\微信公众号\SCADAPlatform\SCADAPlatform\obj\Debug\SCADAPlatform.pdb
-C:\Users\Dave-\OneDrive\WeChatArticle\C#\微信公众号\SCADAPlatform\SCADAPlatform\obj\Debug\SCADAPlatform.exe.config
 C:\Users\Dave-\OneDrive\WeChatArticle\C#\微信公众号\SCADAPlatform\SCADAPlatform\bin\Debug\Serilog.dll
 C:\Users\Dave-\OneDrive\WeChatArticle\C#\微信公众号\SCADAPlatform\SCADAPlatform\bin\Debug\System.Buffers.dll
 C:\Users\Dave-\OneDrive\WeChatArticle\C#\微信公众号\SCADAPlatform\SCADAPlatform\bin\Debug\System.Diagnostics.DiagnosticSource.dll
@@ -26,3 +25,14 @@ C:\Users\Dave-\OneDrive\WeChatArticle\C#\微信公众号\SCADAPlatform\SCADAPlat
 C:\Users\Dave-\OneDrive\WeChatArticle\C#\微信公众号\SCADAPlatform\SCADAPlatform\bin\Debug\System.Threading.Channels.xml
 C:\Users\Dave-\OneDrive\WeChatArticle\C#\微信公众号\SCADAPlatform\SCADAPlatform\bin\Debug\System.Threading.Tasks.Extensions.xml
 C:\Users\Dave-\OneDrive\WeChatArticle\C#\微信公众号\SCADAPlatform\SCADAPlatform\obj\Debug\SCADAPla.E6D8FF72.Up2Date
+C:\Users\Dave-\OneDrive\WeChatArticle\C#\微信公众号\SCADAPlatform\SCADAPlatform\bin\Debug\Serilog.Enrichers.Environment.dll
+C:\Users\Dave-\OneDrive\WeChatArticle\C#\微信公众号\SCADAPlatform\SCADAPlatform\bin\Debug\Serilog.Enrichers.Thread.dll
+C:\Users\Dave-\OneDrive\WeChatArticle\C#\微信公众号\SCADAPlatform\SCADAPlatform\bin\Debug\Serilog.Sinks.Console.dll
+C:\Users\Dave-\OneDrive\WeChatArticle\C#\微信公众号\SCADAPlatform\SCADAPlatform\bin\Debug\Serilog.Sinks.Debug.dll
+C:\Users\Dave-\OneDrive\WeChatArticle\C#\微信公众号\SCADAPlatform\SCADAPlatform\bin\Debug\Serilog.Sinks.File.dll
+C:\Users\Dave-\OneDrive\WeChatArticle\C#\微信公众号\SCADAPlatform\SCADAPlatform\bin\Debug\Serilog.Enrichers.Environment.xml
+C:\Users\Dave-\OneDrive\WeChatArticle\C#\微信公众号\SCADAPlatform\SCADAPlatform\bin\Debug\Serilog.Enrichers.Thread.xml
+C:\Users\Dave-\OneDrive\WeChatArticle\C#\微信公众号\SCADAPlatform\SCADAPlatform\bin\Debug\Serilog.Sinks.Console.xml
+C:\Users\Dave-\OneDrive\WeChatArticle\C#\微信公众号\SCADAPlatform\SCADAPlatform\bin\Debug\Serilog.Sinks.Debug.xml
+C:\Users\Dave-\OneDrive\WeChatArticle\C#\微信公众号\SCADAPlatform\SCADAPlatform\bin\Debug\Serilog.Sinks.File.xml
+C:\Users\Dave-\OneDrive\WeChatArticle\C#\微信公众号\SCADAPlatform\SCADAPlatform\obj\Debug\SCADAPlatform.exe.config
