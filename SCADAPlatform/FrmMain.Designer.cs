@@ -50,11 +50,13 @@
             this.btn_CloseWindow = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
             this.panel_Main = new System.Windows.Forms.Panel();
+            this.button1 = new System.Windows.Forms.Button();
             this.statusBar.SuspendLayout();
             this.panel_Menu.SuspendLayout();
             this.panel_Logo.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.panel_TitleBar.SuspendLayout();
+            this.panel_Main.SuspendLayout();
             this.SuspendLayout();
             // 
             // statusBar
@@ -362,11 +364,22 @@
             // panel_Main
             // 
             this.panel_Main.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(34)))), ((int)(((byte)(33)))), ((int)(((byte)(74)))));
+            this.panel_Main.Controls.Add(this.button1);
             this.panel_Main.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panel_Main.Location = new System.Drawing.Point(240, 65);
             this.panel_Main.Name = "panel_Main";
             this.panel_Main.Size = new System.Drawing.Size(1040, 646);
             this.panel_Main.TabIndex = 3;
+            // 
+            // button1
+            // 
+            this.button1.Location = new System.Drawing.Point(84, 195);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(139, 62);
+            this.button1.TabIndex = 0;
+            this.button1.Text = "button1";
+            this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // FrmMain
             // 
@@ -389,6 +402,7 @@
             this.panel_Logo.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.panel_TitleBar.ResumeLayout(false);
+            this.panel_Main.ResumeLayout(false);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -418,6 +432,7 @@
         private System.Windows.Forms.ToolStripStatusLabel toolStripStatusLabel3;
         private System.Windows.Forms.ToolStripStatusLabel ssl_Login;
         private System.Windows.Forms.ToolStripStatusLabel ssl_DateTime;
+        private System.Windows.Forms.Button button1;
     }
 }
 

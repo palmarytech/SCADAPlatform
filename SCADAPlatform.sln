@@ -1,9 +1,11 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.14.36804.6 d17.14
+VisualStudioVersion = 17.14.36804.6
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SCADAPlatform", "SCADAPlatform\SCADAPlatform.csproj", "{DD606BE3-3D7C-4646-9CC8-20DADFBBCF20}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ModbusLib", "ModbusLib\ModbusLib.csproj", "{1E525DE6-A869-4A7D-9753-37C9D791B990}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{DD606BE3-3D7C-4646-9CC8-20DADFBBCF20}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DD606BE3-3D7C-4646-9CC8-20DADFBBCF20}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DD606BE3-3D7C-4646-9CC8-20DADFBBCF20}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1E525DE6-A869-4A7D-9753-37C9D791B990}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1E525DE6-A869-4A7D-9753-37C9D791B990}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1E525DE6-A869-4A7D-9753-37C9D791B990}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1E525DE6-A869-4A7D-9753-37C9D791B990}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

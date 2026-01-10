@@ -8,6 +8,7 @@ using System.Runtime.InteropServices;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using ModbusLib.Base;
 using Serilog;
 
 namespace SCADAPlatform
@@ -18,6 +19,7 @@ namespace SCADAPlatform
         private Panel _leftBorderBtn;
         private Form _currentChildForm;
 
+        private SerialBase _sb = new SerialBase();
 
         public FrmMain()
         {
@@ -25,6 +27,29 @@ namespace SCADAPlatform
             _leftBorderBtn = new Panel();
             _leftBorderBtn.Size = new Size(10, 68);
             panel_Menu.Controls.Add(_leftBorderBtn);
+
+
+            _sb.RcvTimeOut = 2000;   // 整体超时 2 秒
+            _sb.WaitingTime = 10;    // 轮询间隔 10ms
+            _sb.OpenSerialPort("COM30");
+            this.FormClosing += FrmMain_FormClosing;
+
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+
+            var response = _sb.SendAndRcv(new byte[] { 0x11, 0x22, 0x33, 0x44 });
+            if (response.IsSuccess)
+            {
+                string recvHex = BitConverter.ToString(response.Content).Replace("-", " ");
+                Log.Information($"接收数据成功: {recvHex}");
+            }
+        }
+
+        private void FrmMain_FormClosing(object sender, FormClosingEventArgs e)
+        {
+            _sb.CloseSerialPort();
         }
 
 
@@ -174,6 +199,7 @@ namespace SCADAPlatform
             ReleaseCapture();
             SendMessage(this.Handle, 0x112, 0xf012, 0);
         }
+
 
         #endregion
 

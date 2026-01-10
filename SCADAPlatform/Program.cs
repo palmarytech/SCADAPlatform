@@ -39,7 +39,7 @@ namespace SCADAPlatform
                 .Enrich.WithMachineName()
                 .Enrich.WithEnvironmentUserName()
                 .WriteTo.Console()  // 调试时输出到控制台
-                .WriteTo.Debug()    // 输出到 Visual Studio 输出窗口
+                // .WriteTo.Debug()    // 输出到 Visual Studio 输出窗口
                 .WriteTo.File(
                     path: Path.Combine(Application.StartupPath, "Logs", "log-.txt"),  // 日志文件夹
                     rollingInterval: RollingInterval.Day,    // 每天一个文件

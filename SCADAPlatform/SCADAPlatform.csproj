@@ -86,6 +86,9 @@
     <Reference Include="System.Net.Http" />
     <Reference Include="System.Windows.Forms" />
     <Reference Include="System.Xml" />
+    <Reference Include="xbd.DataConvertLib, Version=4.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\xbd.DataConvertLib.4.0.2\lib\net46\xbd.DataConvertLib.dll</HintPath>
+    </Reference>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Form\FrmAccount.cs">
@@ -210,7 +213,12 @@
   <ItemGroup>
     <None Include="bin\Debug\Images\changeresponse .png" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <ProjectReference Include="..\ModbusLib\ModbusLib.csproj">
+      <Project>{1e525de6-a869-4a7d-9753-37c9d791b990}</Project>
+      <Name>ModbusLib</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Import Project="..\packages\Serilog.4.3.0\build\Serilog.targets" Condition="Exists('..\packages\Serilog.4.3.0\build\Serilog.targets')" />
   <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">

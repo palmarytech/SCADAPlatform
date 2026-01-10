@@ -36,3 +36,8 @@ C:\Users\Dave-\OneDrive\WeChatArticle\C#\微信公众号\SCADAPlatform\SCADAPlat
 C:\Users\Dave-\OneDrive\WeChatArticle\C#\微信公众号\SCADAPlatform\SCADAPlatform\bin\Debug\Serilog.Sinks.Debug.xml
 C:\Users\Dave-\OneDrive\WeChatArticle\C#\微信公众号\SCADAPlatform\SCADAPlatform\bin\Debug\Serilog.Sinks.File.xml
 C:\Users\Dave-\OneDrive\WeChatArticle\C#\微信公众号\SCADAPlatform\SCADAPlatform\obj\Debug\SCADAPlatform.exe.config
+C:\Users\Dave-\OneDrive\WeChatArticle\C#\微信公众号\SCADAPlatform\SCADAPlatform\bin\Debug\ModbusLib.dll
+C:\Users\Dave-\OneDrive\WeChatArticle\C#\微信公众号\SCADAPlatform\SCADAPlatform\bin\Debug\xbd.DataConvertLib.dll
+C:\Users\Dave-\OneDrive\WeChatArticle\C#\微信公众号\SCADAPlatform\SCADAPlatform\bin\Debug\ModbusLib.pdb
+C:\Users\Dave-\OneDrive\WeChatArticle\C#\微信公众号\SCADAPlatform\SCADAPlatform\bin\Debug\ModbusLib.dll.config
+C:\Users\Dave-\OneDrive\WeChatArticle\C#\微信公众号\SCADAPlatform\SCADAPlatform\bin\Debug\xbd.DataConvertLib.xml
