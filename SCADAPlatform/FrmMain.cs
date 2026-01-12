@@ -9,6 +9,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using ModbusLib.Base;
+using ModbusLib.Library;
 using Serilog;
 
 namespace SCADAPlatform
@@ -19,7 +20,7 @@ namespace SCADAPlatform
         private Panel _leftBorderBtn;
         private Form _currentChildForm;
 
-        private SerialBase _sb = new SerialBase();
+        private ModbusRTULib _modbusRtuLib = new ModbusRTULib();
 
         public FrmMain()
         {
@@ -29,9 +30,9 @@ namespace SCADAPlatform
             panel_Menu.Controls.Add(_leftBorderBtn);
 
 
-            _sb.RcvTimeOut = 2000;   // 整体超时 2 秒
-            _sb.WaitingTime = 10;    // 轮询间隔 10ms
-            _sb.OpenSerialPort("COM30");
+            _modbusRtuLib.RcvTimeOut = 2000;   // 整体超时 2 秒
+            _modbusRtuLib.WaitingTime = 10;    // 轮询间隔 10ms
+            _modbusRtuLib.OpenSerialPort("COM10");
             this.FormClosing += FrmMain_FormClosing;
 
         }
@@ -39,17 +40,18 @@ namespace SCADAPlatform
         private void button1_Click(object sender, EventArgs e)
         {
 
-            var response = _sb.SendAndRcv(new byte[] { 0x11, 0x22, 0x33, 0x44 });
+            var response = _modbusRtuLib.ReadInputs(0,2);
             if (response.IsSuccess)
             {
-                string recvHex = BitConverter.ToString(response.Content).Replace("-", " ");
-                Log.Information($"接收数据成功: {recvHex}");
+                bool[] recvHex = response.Content;
+                textBox1.Text = $"接收数据成功: {string.Join(", ", recvHex)}";
+                Log.Information($"接收数据成功: {string.Join(", ", recvHex)}");
             }
         }
 
         private void FrmMain_FormClosing(object sender, FormClosingEventArgs e)
         {
-            _sb.CloseSerialPort();
+            _modbusRtuLib.CloseSerialPort();
         }
 
 
