@@ -18,5 +18,7 @@ namespace ModbusLib.Base
         /// <returns>返回的数据,这里是布尔数组</returns>
         OperateResult<bool[]> ReadCoils(ushort startAddress, ushort length, byte slaveId = 1);
         OperateResult<bool[]> ReadInputs(ushort startAddress, ushort length, byte slaveId = 1);
+        OperateResult<byte[]> ReadHoldingRegisters(ushort startAddress, ushort length, byte slaveId = 1);
+        OperateResult<byte[]> ReadInputRegisters(ushort startAddress, ushort length, byte slaveId = 1);
     }
 }

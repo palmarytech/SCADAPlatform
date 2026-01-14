@@ -87,5 +87,69 @@ namespace ModbusLib.Library
                 return OperateResult.CreateFailResult<bool[]>(response.Message);
             }
         }
+
+        public OperateResult<byte[]> ReadHoldingRegisters(ushort startAddress, ushort length, byte slaveId = 1)
+        {
+            //[1]拼接报文 (1从站地址, 1功能码, 2起始线圈地址, 2线圈数量, 2CRC校验)
+            List<byte> request = new List<byte>();
+            request.Add(slaveId);
+            request.Add(0x03); //功能码
+            request.Add((byte)(startAddress / 256));
+            request.Add((byte)(startAddress % 256));
+            request.Add((byte)(length / 256));
+            request.Add((byte)(length % 256));
+            request.AddRange(CRCHelper.CRC16(request.ToArray(), request.Count));
+            //[2]发送报文+[3]接收报文
+            var response = SendAndRcv(request.ToArray());
+            if (response.IsSuccess)
+            {//[4]验证报文
+                if (response.Content.Length == 5 + length * 2 && CRCHelper.CheckCRC(response.Content))
+                {
+                    //[5]解析报文
+                    byte[] content = response.Content.Skip(3).Take(length * 2).ToArray();
+                    return OperateResult.CreateSuccessResult(content.ToArray());
+                }
+                else
+                {
+                    return OperateResult.CreateFailResult<byte[]>("响应报文错误");
+                }
+            }
+            else
+            {
+                return OperateResult.CreateFailResult<byte[]>(response.Message);
+            }
+        }
+
+        public OperateResult<byte[]> ReadInputRegisters(ushort startAddress, ushort length, byte slaveId = 1)
+        {
+            //[1]拼接报文 (1从站地址, 1功能码, 2起始线圈地址, 2线圈数量, 2CRC校验)
+            List<byte> request = new List<byte>();
+            request.Add(slaveId);
+            request.Add(0x04); //功能码
+            request.Add((byte)(startAddress / 256));
+            request.Add((byte)(startAddress % 256));
+            request.Add((byte)(length / 256));
+            request.Add((byte)(length % 256));
+            request.AddRange(CRCHelper.CRC16(request.ToArray(), request.Count));
+            //[2]发送报文+[3]接收报文
+            var response = SendAndRcv(request.ToArray());
+            if (response.IsSuccess)
+            {//[4]验证报文
+                if (response.Content.Length == 5 + length * 2 && CRCHelper.CheckCRC(response.Content))
+                {
+                    //[5]解析报文
+                    byte[] content = response.Content.Skip(3).Take(length * 2).ToArray();
+                    return OperateResult.CreateSuccessResult(content.ToArray());
+                }
+                else
+                {
+                    return OperateResult.CreateFailResult<byte[]>("响应报文错误");
+                }
+            }
+            else
+            {
+                return OperateResult.CreateFailResult<byte[]>(response.Message);
+            }
+        }
     }
 }

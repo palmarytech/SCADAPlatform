@@ -40,10 +40,10 @@ namespace SCADAPlatform
         private void button1_Click(object sender, EventArgs e)
         {
 
-            var response = _modbusRtuLib.ReadInputs(0,2);
+            var response = _modbusRtuLib.ReadInputRegisters(0,2);
             if (response.IsSuccess)
             {
-                bool[] recvHex = response.Content;
+                byte[] recvHex = response.Content;
                 textBox1.Text = $"接收数据成功: {string.Join(", ", recvHex)}";
                 Log.Information($"接收数据成功: {string.Join(", ", recvHex)}");
             }
