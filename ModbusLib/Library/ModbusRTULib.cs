@@ -151,5 +151,37 @@ namespace ModbusLib.Library
                 return OperateResult.CreateFailResult<byte[]>(response.Message);
             }
         }
+
+        public OperateResult WriteSingleCoil(ushort startAddress, bool value, byte slaveId = 1)
+        {
+            List<byte> request = new List<byte>();
+            request.Add(slaveId);//
+            request.Add(0x05); //功能码
+            request.Add((byte)(startAddress / 256));
+            request.Add((byte)(startAddress % 256));
+            request.Add(value ? (byte)0xFF : (byte)0x00);
+            request.Add(0x00);
+            request.AddRange(CRCHelper.CRC16(request.ToArray(), request.Count));
+            //[2]发送报文+[3]接收报文
+            var response = SendAndRcv(request.ToArray());
+            if (response.IsSuccess)
+            {
+                //[4]验证报文
+                if (response.Content.Length == request.Count && CRCHelper.CheckCRC(response.Content))
+                {
+                    if (ByteArrayLib.GetByteArrayEquals(response.Content, request.ToArray()))
+                    {
+                        //[5]解析报文省略...
+                        return OperateResult.CreateSuccessResult("写入成功" + response.Content);
+                    }
+
+                    return OperateResult.CreateFailResult("响应报文与发送报文长度不一致");
+                }
+
+                return OperateResult.CreateFailResult("响应报文错误");
+            }
+
+            return OperateResult.CreateFailResult(response.Message);
+        }
     }
 }

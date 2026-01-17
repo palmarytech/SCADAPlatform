@@ -20,5 +20,7 @@ namespace ModbusLib.Base
         OperateResult<bool[]> ReadInputs(ushort startAddress, ushort length, byte slaveId = 1);
         OperateResult<byte[]> ReadHoldingRegisters(ushort startAddress, ushort length, byte slaveId = 1);
         OperateResult<byte[]> ReadInputRegisters(ushort startAddress, ushort length, byte slaveId = 1);
+
+        OperateResult WriteSingleCoil(ushort startAddress, bool value, byte slaveId = 1);
     }
 }
