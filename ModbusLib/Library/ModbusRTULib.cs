@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Xml.Schema;
 using ModbusLib.Base;
 using ModbusLib.Helper;
 using xbd.DataConvertLib;
@@ -152,6 +153,7 @@ namespace ModbusLib.Library
             }
         }
 
+
         public OperateResult WriteSingleCoil(ushort startAddress, bool value, byte slaveId = 1)
         {
             List<byte> request = new List<byte>();
@@ -182,6 +184,76 @@ namespace ModbusLib.Library
             }
 
             return OperateResult.CreateFailResult(response.Message);
+        }
+
+        public OperateResult WriteSingleRegister(ushort startAddress, byte[] value, byte slaveId = 1)
+        {
+            if (value == null || value.Length != 2)
+            {
+                return OperateResult.CreateFailResult($"输入值不正确: {{BitConverter.ToString(value ?? new byte[0])}}");
+            }
+            //[1]拼接报文 (1从站地址, 1功能码, 2起始线圈地址, 2线圈数量, 2CRC校验)
+            var request = new List<byte>();
+            request.Add(slaveId);
+            request.Add(0x06); //功能码
+            request.Add((byte)(startAddress / 256));
+            request.Add((byte)(startAddress % 256));
+            request.Add(value[0]);
+            request.Add(value[1]);
+            request.AddRange(CRCHelper.CRC16(request.ToArray(), request.Count));
+            //[2]发送报文+[3]接收报文
+            var response = SendAndRcv(request.ToArray());
+            if (!response.IsSuccess) return OperateResult.CreateFailResult(response.Message);
+            //[4]验证报文
+            if (response.Content.Length != request.Count || !CRCHelper.CheckCRC(response.Content))
+                return OperateResult.CreateFailResult("响应报文错误");
+            return ByteArrayLib.GetByteArrayEquals(response.Content, request.ToArray()) ?
+                //[5]解析报文省略...
+                OperateResult.CreateSuccessResult("写入成功" + response.Content) : OperateResult.CreateFailResult("响应报文与发送报文长度不一致");
+        }
+
+        public OperateResult WriteMultipleCoils(ushort startAddress, bool[] value, byte slaveId = 1)
+        {
+            if (value == null || value.Length == 0)
+            {
+                return OperateResult.CreateFailResult("线圈数组不能为空" + value.ToString());
+            }
+            //[1]拼接报文 (1从站地址, 1功能码, 2起始线圈地址, 2线圈数量, 字节计数, 具体写入bool值, 2CRC校验)
+            List<byte> request = new List<byte>();
+            request.Add(slaveId);
+            request.Add(0x0F); //功能码
+            request.Add((byte)(startAddress / 256));
+            request.Add((byte)(startAddress % 256));
+            request.Add((byte)(value.Length / 256));
+            request.Add((byte)(value.Length % 256));
+            request.Add((byte)ByteArrayLib.GetByteArrayFromBoolArray(value).Length);
+            request.AddRange(ByteArrayLib.GetByteArrayFromBoolArray(value));
+            request.AddRange(CRCHelper.CRC16(request.ToArray(), request.Count));
+            //[2]发送报文+[3]接收报文
+            var response = SendAndRcv(request.ToArray());
+            if (response.IsSuccess)
+            {//[4]验证报文
+                if (response.Content.Length == 8 && CRCHelper.CheckCRC(response.Content))
+                {
+                    if (ByteArrayLib.GetByteArrayEquals(response.Content.Take(6).ToArray(), request.Take(6).ToArray()))
+                    {
+                        //[5]解析报文省略...
+                        return OperateResult.CreateSuccessResult("写入成功" + response.Content);
+                    }
+                    else
+                    {
+                        return OperateResult.CreateFailResult("响应报文与发送报文长度不一致");
+                    }
+                }
+                else
+                {
+                    return OperateResult.CreateFailResult($"响应报文错误");
+                }
+            }
+            else
+            {
+                return OperateResult.CreateFailResult(response.Message);
+            }
         }
     }
 }

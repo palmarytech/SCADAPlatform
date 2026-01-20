@@ -3,16 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\Dave-\\OneDrive\\WeChatArticle\\C#\\\u5FAE\u4FE1\u516C\u4F17\u53F7\\SCADAPlatform\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{DD606BE3-3D7C-4646-9CC8-20DADFBBCF20}|SCADAPlatform\\SCADAPlatform.csproj|c:\\users\\dave-\\onedrive\\wechatarticle\\c#\\\u5FAE\u4FE1\u516C\u4F17\u53F7\\scadaplatform\\scadaplatform\\frmmain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DD606BE3-3D7C-4646-9CC8-20DADFBBCF20}|SCADAPlatform\\SCADAPlatform.csproj|solutionrelative:scadaplatform\\frmmain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{1E525DE6-A869-4A7D-9753-37C9D791B990}|ModbusLib\\ModbusLib.csproj|C:\\Users\\Dave-\\OneDrive\\WeChatArticle\\C#\\\u5FAE\u4FE1\u516C\u4F17\u53F7\\SCADAPlatform\\modbuslib\\library\\modbusrtulib.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1E525DE6-A869-4A7D-9753-37C9D791B990}|ModbusLib\\ModbusLib.csproj|solutionrelative:modbuslib\\library\\modbusrtulib.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{1E525DE6-A869-4A7D-9753-37C9D791B990}|ModbusLib\\ModbusLib.csproj|C:\\Users\\Dave-\\OneDrive\\WeChatArticle\\C#\\\u5FAE\u4FE1\u516C\u4F17\u53F7\\SCADAPlatform\\modbuslib\\interface\\imodbusrw.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1E525DE6-A869-4A7D-9753-37C9D791B990}|ModbusLib\\ModbusLib.csproj|solutionrelative:modbuslib\\interface\\imodbusrw.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DD606BE3-3D7C-4646-9CC8-20DADFBBCF20}|SCADAPlatform\\SCADAPlatform.csproj|c:\\users\\dave-\\onedrive\\wechatarticle\\c#\\\u5FAE\u4FE1\u516C\u4F17\u53F7\\scadaplatform\\scadaplatform\\frmmain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DD606BE3-3D7C-4646-9CC8-20DADFBBCF20}|SCADAPlatform\\SCADAPlatform.csproj|solutionrelative:scadaplatform\\frmmain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{DD606BE3-3D7C-4646-9CC8-20DADFBBCF20}|SCADAPlatform\\SCADAPlatform.csproj|C:\\Users\\Dave-\\OneDrive\\WeChatArticle\\C#\\\u5FAE\u4FE1\u516C\u4F17\u53F7\\SCADAPlatform\\scadaplatform\\frmmain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
@@ -38,7 +38,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Bookmark",
@@ -54,13 +54,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "FrmMain.cs",
               "DocumentMoniker": "C:\\Users\\Dave-\\OneDrive\\WeChatArticle\\C#\\\u5FAE\u4FE1\u516C\u4F17\u53F7\\SCADAPlatform\\SCADAPlatform\\FrmMain.cs",
               "RelativeDocumentMoniker": "SCADAPlatform\\FrmMain.cs",
-              "ToolTip": "C:\\Users\\Dave-\\OneDrive\\WeChatArticle\\C#\\\u5FAE\u4FE1\u516C\u4F17\u53F7\\SCADAPlatform\\SCADAPlatform\\FrmMain.cs*",
-              "RelativeToolTip": "SCADAPlatform\\FrmMain.cs*",
-              "ViewState": "AgIAABoAAAAAAAAAAAAmwCoAAABBAAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\Dave-\\OneDrive\\WeChatArticle\\C#\\\u5FAE\u4FE1\u516C\u4F17\u53F7\\SCADAPlatform\\SCADAPlatform\\FrmMain.cs",
+              "RelativeToolTip": "SCADAPlatform\\FrmMain.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAA4wCgAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-01-12T03:28:26.171Z",
               "EditorCaption": ""
@@ -79,26 +79,26 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "ModbusRTULib.cs",
               "DocumentMoniker": "C:\\Users\\Dave-\\OneDrive\\WeChatArticle\\C#\\\u5FAE\u4FE1\u516C\u4F17\u53F7\\SCADAPlatform\\ModbusLib\\Library\\ModbusRTULib.cs",
               "RelativeDocumentMoniker": "ModbusLib\\Library\\ModbusRTULib.cs",
               "ToolTip": "C:\\Users\\Dave-\\OneDrive\\WeChatArticle\\C#\\\u5FAE\u4FE1\u516C\u4F17\u53F7\\SCADAPlatform\\ModbusLib\\Library\\ModbusRTULib.cs",
               "RelativeToolTip": "ModbusLib\\Library\\ModbusRTULib.cs",
-              "ViewState": "AgIAAAoAAAAAAAAAAAAmwJwAAAAyAAAAAAAAAA==",
+              "ViewState": "AgIAAOIAAAAAAAAAAAA4wOoAAAAWAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-01-12T02:13:37.327Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "IModbusRW.cs",
               "DocumentMoniker": "C:\\Users\\Dave-\\OneDrive\\WeChatArticle\\C#\\\u5FAE\u4FE1\u516C\u4F17\u53F7\\SCADAPlatform\\ModbusLib\\Interface\\IModbusRW.cs",
               "RelativeDocumentMoniker": "ModbusLib\\Interface\\IModbusRW.cs",
               "ToolTip": "C:\\Users\\Dave-\\OneDrive\\WeChatArticle\\C#\\\u5FAE\u4FE1\u516C\u4F17\u53F7\\SCADAPlatform\\ModbusLib\\Interface\\IModbusRW.cs",
               "RelativeToolTip": "ModbusLib\\Interface\\IModbusRW.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAADwvxcAAABZAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAdAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-01-12T02:02:27.513Z",
               "EditorCaption": ""
