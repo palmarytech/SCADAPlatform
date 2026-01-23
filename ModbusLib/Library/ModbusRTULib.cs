@@ -219,16 +219,16 @@ namespace ModbusLib.Library
                 return OperateResult.CreateFailResult("线圈数组不能为空" + value.ToString());
             }
             //[1]拼接报文 (1从站地址, 1功能码, 2起始线圈地址, 2线圈数量, 字节计数, 具体写入bool值, 2CRC校验)
-            List<byte> request = new List<byte>();
-            request.Add(slaveId);
+            var request = new List<byte>();
+            request.Add(slaveId);//从站地址
             request.Add(0x0F); //功能码
             request.Add((byte)(startAddress / 256));
-            request.Add((byte)(startAddress % 256));
+            request.Add((byte)(startAddress % 256));//起始线圈地址
             request.Add((byte)(value.Length / 256));
-            request.Add((byte)(value.Length % 256));
-            request.Add((byte)ByteArrayLib.GetByteArrayFromBoolArray(value).Length);
-            request.AddRange(ByteArrayLib.GetByteArrayFromBoolArray(value));
-            request.AddRange(CRCHelper.CRC16(request.ToArray(), request.Count));
+            request.Add((byte)(value.Length % 256));//线圈数量
+            request.Add((byte)ByteArrayLib.GetByteArrayFromBoolArray(value).Length);//字节计数
+            request.AddRange(ByteArrayLib.GetByteArrayFromBoolArray(value));//具体写入bool值
+            request.AddRange(CRCHelper.CRC16(request.ToArray(), request.Count));//CRC校验码
             //[2]发送报文+[3]接收报文
             var response = SendAndRcv(request.ToArray());
             if (response.IsSuccess)

@@ -40,7 +40,7 @@ namespace SCADAPlatform
         private void button1_Click(object sender, EventArgs e)
         {
 
-            var response = _modbusRtuLib.WriteSingleRegister(0, new byte[]{0x11, 0x12});
+            var response = _modbusRtuLib.WriteMultipleCoils(0, new bool[]{true, true, false});
             if (response.IsSuccess)
             {
                 textBox1.Text = $"写入数据成功";
