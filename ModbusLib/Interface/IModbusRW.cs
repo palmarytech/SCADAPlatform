@@ -24,5 +24,6 @@ namespace ModbusLib.Base
         OperateResult WriteSingleCoil(ushort startAddress, bool value, byte slaveId = 1);
         OperateResult WriteSingleRegister(ushort startAddress, byte[] value, byte slaveId = 1);
         OperateResult WriteMultipleCoils(ushort startAddress, bool[] value, byte slaveId = 1);
+        OperateResult WriteMultipleRegisters(ushort startAddress, byte[] value, byte slaveId = 1);
     }
 }

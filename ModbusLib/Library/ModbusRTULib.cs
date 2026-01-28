@@ -255,5 +255,49 @@ namespace ModbusLib.Library
                 return OperateResult.CreateFailResult(response.Message);
             }
         }
+
+        public OperateResult WriteMultipleRegisters(ushort startAddress, byte[] value, byte slaveId = 1)
+        {
+            if (value == null || value.Length % 2 != 0)
+            {
+                return OperateResult.CreateFailResult("输入值不正确" + value.ToString());
+            }
+            //[1]拼接报文 (1从站地址, 1功能码, 2起始寄存器地址, 2寄存器数量, 字节计数, 具体写入bool值, 2CRC校验)
+            List<byte> request = new List<byte>();
+            request.Add(slaveId);
+            request.Add(0x10); //功能码
+            request.Add((byte)(startAddress / 256));
+            request.Add((byte)(startAddress % 256));
+            request.Add((byte)(value.Length / 2 / 256));
+            request.Add((byte)(value.Length / 2 % 256));
+            request.Add((byte)value.Length);
+            request.AddRange(value);
+            request.AddRange(CRCHelper.CRC16(request.ToArray(), request.Count));
+            //[2]发送报文+[3]接收报文
+            var response = SendAndRcv(request.ToArray());
+            if (response.IsSuccess)
+            {//[4]验证报文
+                if (response.Content.Length == 8 && CRCHelper.CheckCRC(response.Content))
+                {
+                    if (ByteArrayLib.GetByteArrayEquals(response.Content.Take(6).ToArray(), request.Take(6).ToArray()))
+                    {
+                        //[5]解析报文省略...
+                        return OperateResult.CreateSuccessResult("写入成功" + response.Content);
+                    }
+                    else
+                    {
+                        return OperateResult.CreateFailResult("响应报文与发送报文长度不一致");
+                    }
+                }
+                else
+                {
+                    return OperateResult.CreateFailResult("响应报文错误");
+                }
+            }
+            else
+            {
+                return OperateResult.CreateFailResult(response.Message);
+            }
+        }
     }
 }

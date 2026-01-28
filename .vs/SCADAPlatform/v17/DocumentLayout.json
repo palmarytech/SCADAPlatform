@@ -7,7 +7,11 @@
       "RelativeMoniker": "D:0:0:{DD606BE3-3D7C-4646-9CC8-20DADFBBCF20}|SCADAPlatform\\SCADAPlatform.csproj|solutionrelative:scadaplatform\\frmmain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1E525DE6-A869-4A7D-9753-37C9D791B990}|ModbusLib\\ModbusLib.csproj|c:\\users\\dave-\\onedrive\\wechatarticle\\c#\\\u5FAE\u4FE1\u516C\u4F17\u53F7\\scadaplatform\\modbuslib\\library\\modbusrtulib.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{DD606BE3-3D7C-4646-9CC8-20DADFBBCF20}|SCADAPlatform\\SCADAPlatform.csproj|C:\\Users\\Dave-\\OneDrive\\WeChatArticle\\C#\\\u5FAE\u4FE1\u516C\u4F17\u53F7\\SCADAPlatform\\scadaplatform\\frmmain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{DD606BE3-3D7C-4646-9CC8-20DADFBBCF20}|SCADAPlatform\\SCADAPlatform.csproj|solutionrelative:scadaplatform\\frmmain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1E525DE6-A869-4A7D-9753-37C9D791B990}|ModbusLib\\ModbusLib.csproj|C:\\Users\\Dave-\\OneDrive\\WeChatArticle\\C#\\\u5FAE\u4FE1\u516C\u4F17\u53F7\\SCADAPlatform\\modbuslib\\library\\modbusrtulib.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1E525DE6-A869-4A7D-9753-37C9D791B990}|ModbusLib\\ModbusLib.csproj|solutionrelative:modbuslib\\library\\modbusrtulib.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -15,16 +19,12 @@
       "RelativeMoniker": "D:0:0:{1E525DE6-A869-4A7D-9753-37C9D791B990}|ModbusLib\\ModbusLib.csproj|solutionrelative:modbuslib\\interface\\imodbusrw.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DD606BE3-3D7C-4646-9CC8-20DADFBBCF20}|SCADAPlatform\\SCADAPlatform.csproj|C:\\Users\\Dave-\\OneDrive\\WeChatArticle\\C#\\\u5FAE\u4FE1\u516C\u4F17\u53F7\\SCADAPlatform\\scadaplatform\\frmmain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{DD606BE3-3D7C-4646-9CC8-20DADFBBCF20}|SCADAPlatform\\SCADAPlatform.csproj|solutionrelative:scadaplatform\\frmmain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{1E525DE6-A869-4A7D-9753-37C9D791B990}|ModbusLib\\ModbusLib.csproj|c:\\users\\dave-\\onedrive\\wechatarticle\\c#\\\u5FAE\u4FE1\u516C\u4F17\u53F7\\scadaplatform\\modbuslib\\base\\serialbase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1E525DE6-A869-4A7D-9753-37C9D791B990}|ModbusLib\\ModbusLib.csproj|solutionrelative:modbuslib\\base\\serialbase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{1E525DE6-A869-4A7D-9753-37C9D791B990}|ModbusLib\\ModbusLib.csproj|C:\\Users\\Dave-\\OneDrive\\WeChatArticle\\C#\\\u5FAE\u4FE1\u516C\u4F17\u53F7\\SCADAPlatform\\modbuslib\\helper\\crchelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1E525DE6-A869-4A7D-9753-37C9D791B990}|ModbusLib\\ModbusLib.csproj|solutionrelative:modbuslib\\helper\\crchelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1E525DE6-A869-4A7D-9753-37C9D791B990}|ModbusLib\\ModbusLib.csproj|C:\\Users\\Dave-\\OneDrive\\WeChatArticle\\C#\\\u5FAE\u4FE1\u516C\u4F17\u53F7\\SCADAPlatform\\modbuslib\\base\\serialbase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1E525DE6-A869-4A7D-9753-37C9D791B990}|ModbusLib\\ModbusLib.csproj|solutionrelative:modbuslib\\base\\serialbase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{DD606BE3-3D7C-4646-9CC8-20DADFBBCF20}|SCADAPlatform\\SCADAPlatform.csproj|C:\\Users\\Dave-\\OneDrive\\WeChatArticle\\C#\\\u5FAE\u4FE1\u516C\u4F17\u53F7\\SCADAPlatform\\scadaplatform\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -60,14 +60,14 @@
               "RelativeDocumentMoniker": "SCADAPlatform\\FrmMain.cs",
               "ToolTip": "C:\\Users\\Dave-\\OneDrive\\WeChatArticle\\C#\\\u5FAE\u4FE1\u516C\u4F17\u53F7\\SCADAPlatform\\SCADAPlatform\\FrmMain.cs",
               "RelativeToolTip": "SCADAPlatform\\FrmMain.cs",
-              "ViewState": "AgIAABIAAAAAAAAAAAAAAC0AAAAqAAAAAAAAAA==",
+              "ViewState": "AgIAABUAAAAAAAAAAAAAADEAAABPAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-01-12T03:28:26.171Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "CRCHelper.cs",
               "DocumentMoniker": "C:\\Users\\Dave-\\OneDrive\\WeChatArticle\\C#\\\u5FAE\u4FE1\u516C\u4F17\u53F7\\SCADAPlatform\\ModbusLib\\Helper\\CRCHelper.cs",
               "RelativeDocumentMoniker": "ModbusLib\\Helper\\CRCHelper.cs",
@@ -79,32 +79,33 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "ModbusRTULib.cs",
               "DocumentMoniker": "C:\\Users\\Dave-\\OneDrive\\WeChatArticle\\C#\\\u5FAE\u4FE1\u516C\u4F17\u53F7\\SCADAPlatform\\ModbusLib\\Library\\ModbusRTULib.cs",
               "RelativeDocumentMoniker": "ModbusLib\\Library\\ModbusRTULib.cs",
               "ToolTip": "C:\\Users\\Dave-\\OneDrive\\WeChatArticle\\C#\\\u5FAE\u4FE1\u516C\u4F17\u53F7\\SCADAPlatform\\ModbusLib\\Library\\ModbusRTULib.cs",
               "RelativeToolTip": "ModbusLib\\Library\\ModbusRTULib.cs",
-              "ViewState": "AgIAAJwAAAAAAAAAAAAAAPQAAABQAAAAAAAAAA==",
+              "ViewState": "AgIAAA8BAAAAAAAAAAAswCUBAABEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-01-12T02:13:37.327Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "IModbusRW.cs",
               "DocumentMoniker": "C:\\Users\\Dave-\\OneDrive\\WeChatArticle\\C#\\\u5FAE\u4FE1\u516C\u4F17\u53F7\\SCADAPlatform\\ModbusLib\\Interface\\IModbusRW.cs",
               "RelativeDocumentMoniker": "ModbusLib\\Interface\\IModbusRW.cs",
               "ToolTip": "C:\\Users\\Dave-\\OneDrive\\WeChatArticle\\C#\\\u5FAE\u4FE1\u516C\u4F17\u53F7\\SCADAPlatform\\ModbusLib\\Interface\\IModbusRW.cs",
               "RelativeToolTip": "ModbusLib\\Interface\\IModbusRW.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAdAAAAAAAAAA==",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABsAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-12T02:02:27.513Z"
+              "WhenOpened": "2026-01-12T02:02:27.513Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 1,
               "Title": "FrmMain.cs [\u8BBE\u8BA1]",
               "DocumentMoniker": "C:\\Users\\Dave-\\OneDrive\\WeChatArticle\\C#\\\u5FAE\u4FE1\u516C\u4F17\u53F7\\SCADAPlatform\\SCADAPlatform\\FrmMain.cs",
               "RelativeDocumentMoniker": "SCADAPlatform\\FrmMain.cs",
@@ -116,15 +117,16 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 4,
               "Title": "SerialBase.cs",
               "DocumentMoniker": "C:\\Users\\Dave-\\OneDrive\\WeChatArticle\\C#\\\u5FAE\u4FE1\u516C\u4F17\u53F7\\SCADAPlatform\\ModbusLib\\Base\\SerialBase.cs",
               "RelativeDocumentMoniker": "ModbusLib\\Base\\SerialBase.cs",
               "ToolTip": "C:\\Users\\Dave-\\OneDrive\\WeChatArticle\\C#\\\u5FAE\u4FE1\u516C\u4F17\u53F7\\SCADAPlatform\\ModbusLib\\Base\\SerialBase.cs",
               "RelativeToolTip": "ModbusLib\\Base\\SerialBase.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAYAAAAAAAAAA==",
+              "ViewState": "AgIAAEUAAAAAAAAAAAAwwKwAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-10T09:43:50.735Z"
+              "WhenOpened": "2026-01-10T09:43:50.735Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
