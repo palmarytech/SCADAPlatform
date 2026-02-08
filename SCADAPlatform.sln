@@ -7,6 +7,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SCADAPlatform", "SCADAPlatf
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ModbusLib", "ModbusLib\ModbusLib.csproj", "{1E525DE6-A869-4A7D-9753-37C9D791B990}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SCADAPlatform.Helper", "SCADAPlatform.Helper\SCADAPlatform.Helper.csproj", "{C53E8A9E-025C-4E36-B8BF-31DC69616BA0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SCADAPlatform.LayerCfg", "SCADAPlatform.LayerCfg\SCADAPlatform.LayerCfg.csproj", "{73A69120-7393-4B29-8B8D-CA84B31F2E68}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +25,14 @@ Global
 		{1E525DE6-A869-4A7D-9753-37C9D791B990}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1E525DE6-A869-4A7D-9753-37C9D791B990}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1E525DE6-A869-4A7D-9753-37C9D791B990}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C53E8A9E-025C-4E36-B8BF-31DC69616BA0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C53E8A9E-025C-4E36-B8BF-31DC69616BA0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C53E8A9E-025C-4E36-B8BF-31DC69616BA0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C53E8A9E-025C-4E36-B8BF-31DC69616BA0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{73A69120-7393-4B29-8B8D-CA84B31F2E68}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{73A69120-7393-4B29-8B8D-CA84B31F2E68}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{73A69120-7393-4B29-8B8D-CA84B31F2E68}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{73A69120-7393-4B29-8B8D-CA84B31F2E68}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

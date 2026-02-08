@@ -1,0 +1,9 @@
+C:\Users\Dave-\OneDrive\WeChatArticle\C#\微信公众号\SCADAPlatform\SCADAPlatform.Helper\bin\Debug\SCADAPlatform.Helper.dll
+C:\Users\Dave-\OneDrive\WeChatArticle\C#\微信公众号\SCADAPlatform\SCADAPlatform.Helper\bin\Debug\SCADAPlatform.Helper.pdb
+C:\Users\Dave-\OneDrive\WeChatArticle\C#\微信公众号\SCADAPlatform\SCADAPlatform.Helper\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Dave-\OneDrive\WeChatArticle\C#\微信公众号\SCADAPlatform\SCADAPlatform.Helper\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Dave-\OneDrive\WeChatArticle\C#\微信公众号\SCADAPlatform\SCADAPlatform.Helper\obj\Debug\SCADAPlatform.Helper.csproj.AssemblyReference.cache
+C:\Users\Dave-\OneDrive\WeChatArticle\C#\微信公众号\SCADAPlatform\SCADAPlatform.Helper\obj\Debug\SCADAPlatform.Helper.csproj.CoreCompileInputs.cache
+C:\Users\Dave-\OneDrive\WeChatArticle\C#\微信公众号\SCADAPlatform\SCADAPlatform.Helper\obj\Debug\SCADAPla.A1A74AF1.Up2Date
+C:\Users\Dave-\OneDrive\WeChatArticle\C#\微信公众号\SCADAPlatform\SCADAPlatform.Helper\obj\Debug\SCADAPlatform.Helper.dll
+C:\Users\Dave-\OneDrive\WeChatArticle\C#\微信公众号\SCADAPlatform\SCADAPlatform.Helper\obj\Debug\SCADAPlatform.Helper.pdb

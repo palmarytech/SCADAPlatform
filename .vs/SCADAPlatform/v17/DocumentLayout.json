@@ -3,12 +3,40 @@
   "WorkspaceRootPath": "C:\\Users\\Dave-\\OneDrive\\WeChatArticle\\C#\\\u5FAE\u4FE1\u516C\u4F17\u53F7\\SCADAPlatform\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{DD606BE3-3D7C-4646-9CC8-20DADFBBCF20}|SCADAPlatform\\SCADAPlatform.csproj|C:\\Users\\Dave-\\OneDrive\\WeChatArticle\\C#\\\u5FAE\u4FE1\u516C\u4F17\u53F7\\SCADAPlatform\\scadaplatform\\frmmain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DD606BE3-3D7C-4646-9CC8-20DADFBBCF20}|SCADAPlatform\\SCADAPlatform.csproj|solutionrelative:scadaplatform\\frmmain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{DD606BE3-3D7C-4646-9CC8-20DADFBBCF20}|SCADAPlatform\\SCADAPlatform.csproj|c:\\users\\dave-\\onedrive\\wechatarticle\\c#\\\u5FAE\u4FE1\u516C\u4F17\u53F7\\scadaplatform\\scadaplatform\\frmmain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{DD606BE3-3D7C-4646-9CC8-20DADFBBCF20}|SCADAPlatform\\SCADAPlatform.csproj|solutionrelative:scadaplatform\\frmmain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DD606BE3-3D7C-4646-9CC8-20DADFBBCF20}|SCADAPlatform\\SCADAPlatform.csproj|C:\\Users\\Dave-\\OneDrive\\WeChatArticle\\C#\\\u5FAE\u4FE1\u516C\u4F17\u53F7\\SCADAPlatform\\scadaplatform\\frmmain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{DD606BE3-3D7C-4646-9CC8-20DADFBBCF20}|SCADAPlatform\\SCADAPlatform.csproj|solutionrelative:scadaplatform\\frmmain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{73A69120-7393-4B29-8B8D-CA84B31F2E68}|SCADAPlatform.LayerCfg\\SCADAPlatform.LayerCfg.csproj|C:\\Users\\Dave-\\OneDrive\\WeChatArticle\\C#\\\u5FAE\u4FE1\u516C\u4F17\u53F7\\SCADAPlatform\\scadaplatform.layercfg\\modbusrtudevice\\modbusrtugroup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{73A69120-7393-4B29-8B8D-CA84B31F2E68}|SCADAPlatform.LayerCfg\\SCADAPlatform.LayerCfg.csproj|solutionrelative:scadaplatform.layercfg\\modbusrtudevice\\modbusrtugroup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{73A69120-7393-4B29-8B8D-CA84B31F2E68}|SCADAPlatform.LayerCfg\\SCADAPlatform.LayerCfg.csproj|C:\\Users\\Dave-\\OneDrive\\WeChatArticle\\C#\\\u5FAE\u4FE1\u516C\u4F17\u53F7\\SCADAPlatform\\scadaplatform.layercfg\\modbusrtudevice\\modbusrtudevice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{73A69120-7393-4B29-8B8D-CA84B31F2E68}|SCADAPlatform.LayerCfg\\SCADAPlatform.LayerCfg.csproj|solutionrelative:scadaplatform.layercfg\\modbusrtudevice\\modbusrtudevice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{73A69120-7393-4B29-8B8D-CA84B31F2E68}|SCADAPlatform.LayerCfg\\SCADAPlatform.LayerCfg.csproj|C:\\Users\\Dave-\\OneDrive\\WeChatArticle\\C#\\\u5FAE\u4FE1\u516C\u4F17\u53F7\\SCADAPlatform\\scadaplatform.layercfg\\modbusrtudevice\\modbusrtuvariable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{73A69120-7393-4B29-8B8D-CA84B31F2E68}|SCADAPlatform.LayerCfg\\SCADAPlatform.LayerCfg.csproj|solutionrelative:scadaplatform.layercfg\\modbusrtudevice\\modbusrtuvariable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{73A69120-7393-4B29-8B8D-CA84B31F2E68}|SCADAPlatform.LayerCfg\\SCADAPlatform.LayerCfg.csproj|C:\\Users\\Dave-\\OneDrive\\WeChatArticle\\C#\\\u5FAE\u4FE1\u516C\u4F17\u53F7\\SCADAPlatform\\scadaplatform.layercfg\\base\\groupbase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{73A69120-7393-4B29-8B8D-CA84B31F2E68}|SCADAPlatform.LayerCfg\\SCADAPlatform.LayerCfg.csproj|solutionrelative:scadaplatform.layercfg\\base\\groupbase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{73A69120-7393-4B29-8B8D-CA84B31F2E68}|SCADAPlatform.LayerCfg\\SCADAPlatform.LayerCfg.csproj|C:\\Users\\Dave-\\OneDrive\\WeChatArticle\\C#\\\u5FAE\u4FE1\u516C\u4F17\u53F7\\SCADAPlatform\\scadaplatform.layercfg\\base\\devicebase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{73A69120-7393-4B29-8B8D-CA84B31F2E68}|SCADAPlatform.LayerCfg\\SCADAPlatform.LayerCfg.csproj|solutionrelative:scadaplatform.layercfg\\base\\devicebase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{73A69120-7393-4B29-8B8D-CA84B31F2E68}|SCADAPlatform.LayerCfg\\SCADAPlatform.LayerCfg.csproj|C:\\Users\\Dave-\\OneDrive\\WeChatArticle\\C#\\\u5FAE\u4FE1\u516C\u4F17\u53F7\\SCADAPlatform\\scadaplatform.layercfg\\base\\variablebase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{73A69120-7393-4B29-8B8D-CA84B31F2E68}|SCADAPlatform.LayerCfg\\SCADAPlatform.LayerCfg.csproj|solutionrelative:scadaplatform.layercfg\\base\\variablebase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C53E8A9E-025C-4E36-B8BF-31DC69616BA0}|SCADAPlatform.Helper\\SCADAPlatform.Helper.csproj|C:\\Users\\Dave-\\OneDrive\\WeChatArticle\\C#\\\u5FAE\u4FE1\u516C\u4F17\u53F7\\SCADAPlatform\\scadaplatform.helper\\jsonhelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C53E8A9E-025C-4E36-B8BF-31DC69616BA0}|SCADAPlatform.Helper\\SCADAPlatform.Helper.csproj|solutionrelative:scadaplatform.helper\\jsonhelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DD606BE3-3D7C-4646-9CC8-20DADFBBCF20}|SCADAPlatform\\SCADAPlatform.csproj|C:\\Users\\Dave-\\OneDrive\\WeChatArticle\\C#\\\u5FAE\u4FE1\u516C\u4F17\u53F7\\SCADAPlatform\\scadaplatform\\frmmain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DD606BE3-3D7C-4646-9CC8-20DADFBBCF20}|SCADAPlatform\\SCADAPlatform.csproj|solutionrelative:scadaplatform\\frmmain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{1E525DE6-A869-4A7D-9753-37C9D791B990}|ModbusLib\\ModbusLib.csproj|C:\\Users\\Dave-\\OneDrive\\WeChatArticle\\C#\\\u5FAE\u4FE1\u516C\u4F17\u53F7\\SCADAPlatform\\modbuslib\\library\\modbusrtulib.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -19,7 +47,7 @@
       "RelativeMoniker": "D:0:0:{1E525DE6-A869-4A7D-9753-37C9D791B990}|ModbusLib\\ModbusLib.csproj|solutionrelative:modbuslib\\interface\\imodbusrw.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1E525DE6-A869-4A7D-9753-37C9D791B990}|ModbusLib\\ModbusLib.csproj|c:\\users\\dave-\\onedrive\\wechatarticle\\c#\\\u5FAE\u4FE1\u516C\u4F17\u53F7\\scadaplatform\\modbuslib\\base\\serialbase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{1E525DE6-A869-4A7D-9753-37C9D791B990}|ModbusLib\\ModbusLib.csproj|C:\\Users\\Dave-\\OneDrive\\WeChatArticle\\C#\\\u5FAE\u4FE1\u516C\u4F17\u53F7\\SCADAPlatform\\modbuslib\\base\\serialbase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1E525DE6-A869-4A7D-9753-37C9D791B990}|ModbusLib\\ModbusLib.csproj|solutionrelative:modbuslib\\base\\serialbase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -38,7 +66,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 14,
           "Children": [
             {
               "$type": "Bookmark",
@@ -54,20 +82,104 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 3,
+              "Title": "ModbusRtuVariable.cs",
+              "DocumentMoniker": "C:\\Users\\Dave-\\OneDrive\\WeChatArticle\\C#\\\u5FAE\u4FE1\u516C\u4F17\u53F7\\SCADAPlatform\\SCADAPlatform.LayerCfg\\ModbusRtuDevice\\ModbusRtuVariable.cs",
+              "RelativeDocumentMoniker": "SCADAPlatform.LayerCfg\\ModbusRtuDevice\\ModbusRtuVariable.cs",
+              "ToolTip": "C:\\Users\\Dave-\\OneDrive\\WeChatArticle\\C#\\\u5FAE\u4FE1\u516C\u4F17\u53F7\\SCADAPlatform\\SCADAPlatform.LayerCfg\\ModbusRtuDevice\\ModbusRtuVariable.cs",
+              "RelativeToolTip": "SCADAPlatform.LayerCfg\\ModbusRtuDevice\\ModbusRtuVariable.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-06T03:53:13.893Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ModbusRtuGroup.cs",
+              "DocumentMoniker": "C:\\Users\\Dave-\\OneDrive\\WeChatArticle\\C#\\\u5FAE\u4FE1\u516C\u4F17\u53F7\\SCADAPlatform\\SCADAPlatform.LayerCfg\\ModbusRtuDevice\\ModbusRtuGroup.cs",
+              "RelativeDocumentMoniker": "SCADAPlatform.LayerCfg\\ModbusRtuDevice\\ModbusRtuGroup.cs",
+              "ToolTip": "C:\\Users\\Dave-\\OneDrive\\WeChatArticle\\C#\\\u5FAE\u4FE1\u516C\u4F17\u53F7\\SCADAPlatform\\SCADAPlatform.LayerCfg\\ModbusRtuDevice\\ModbusRtuGroup.cs",
+              "RelativeToolTip": "SCADAPlatform.LayerCfg\\ModbusRtuDevice\\ModbusRtuGroup.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAADwvxMAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-06T03:53:08.024Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ModbusRTUDevice.cs",
+              "DocumentMoniker": "C:\\Users\\Dave-\\OneDrive\\WeChatArticle\\C#\\\u5FAE\u4FE1\u516C\u4F17\u53F7\\SCADAPlatform\\SCADAPlatform.LayerCfg\\ModbusRtuDevice\\ModbusRTUDevice.cs",
+              "RelativeDocumentMoniker": "SCADAPlatform.LayerCfg\\ModbusRtuDevice\\ModbusRTUDevice.cs",
+              "ToolTip": "C:\\Users\\Dave-\\OneDrive\\WeChatArticle\\C#\\\u5FAE\u4FE1\u516C\u4F17\u53F7\\SCADAPlatform\\SCADAPlatform.LayerCfg\\ModbusRtuDevice\\ModbusRTUDevice.cs",
+              "RelativeToolTip": "SCADAPlatform.LayerCfg\\ModbusRtuDevice\\ModbusRTUDevice.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-06T03:52:53.233Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "VariableBase.cs",
+              "DocumentMoniker": "C:\\Users\\Dave-\\OneDrive\\WeChatArticle\\C#\\\u5FAE\u4FE1\u516C\u4F17\u53F7\\SCADAPlatform\\SCADAPlatform.LayerCfg\\Base\\VariableBase.cs",
+              "RelativeDocumentMoniker": "SCADAPlatform.LayerCfg\\Base\\VariableBase.cs",
+              "ToolTip": "C:\\Users\\Dave-\\OneDrive\\WeChatArticle\\C#\\\u5FAE\u4FE1\u516C\u4F17\u53F7\\SCADAPlatform\\SCADAPlatform.LayerCfg\\Base\\VariableBase.cs",
+              "RelativeToolTip": "SCADAPlatform.LayerCfg\\Base\\VariableBase.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAADwvwoAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-06T03:51:34.557Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "GroupBase.cs",
+              "DocumentMoniker": "C:\\Users\\Dave-\\OneDrive\\WeChatArticle\\C#\\\u5FAE\u4FE1\u516C\u4F17\u53F7\\SCADAPlatform\\SCADAPlatform.LayerCfg\\Base\\GroupBase.cs",
+              "RelativeDocumentMoniker": "SCADAPlatform.LayerCfg\\Base\\GroupBase.cs",
+              "ToolTip": "C:\\Users\\Dave-\\OneDrive\\WeChatArticle\\C#\\\u5FAE\u4FE1\u516C\u4F17\u53F7\\SCADAPlatform\\SCADAPlatform.LayerCfg\\Base\\GroupBase.cs",
+              "RelativeToolTip": "SCADAPlatform.LayerCfg\\Base\\GroupBase.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAADwvwgAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-06T03:51:20.423Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "DeviceBase.cs",
+              "DocumentMoniker": "C:\\Users\\Dave-\\OneDrive\\WeChatArticle\\C#\\\u5FAE\u4FE1\u516C\u4F17\u53F7\\SCADAPlatform\\SCADAPlatform.LayerCfg\\Base\\DeviceBase.cs",
+              "RelativeDocumentMoniker": "SCADAPlatform.LayerCfg\\Base\\DeviceBase.cs",
+              "ToolTip": "C:\\Users\\Dave-\\OneDrive\\WeChatArticle\\C#\\\u5FAE\u4FE1\u516C\u4F17\u53F7\\SCADAPlatform\\SCADAPlatform.LayerCfg\\Base\\DeviceBase.cs",
+              "RelativeToolTip": "SCADAPlatform.LayerCfg\\Base\\DeviceBase.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAAAoAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-06T03:49:53.831Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "JsonHelper.cs",
+              "DocumentMoniker": "C:\\Users\\Dave-\\OneDrive\\WeChatArticle\\C#\\\u5FAE\u4FE1\u516C\u4F17\u53F7\\SCADAPlatform\\SCADAPlatform.Helper\\JsonHelper.cs",
+              "RelativeDocumentMoniker": "SCADAPlatform.Helper\\JsonHelper.cs",
+              "ToolTip": "C:\\Users\\Dave-\\OneDrive\\WeChatArticle\\C#\\\u5FAE\u4FE1\u516C\u4F17\u53F7\\SCADAPlatform\\SCADAPlatform.Helper\\JsonHelper.cs",
+              "RelativeToolTip": "SCADAPlatform.Helper\\JsonHelper.cs",
+              "ViewState": "AgIAADkAAAAAAAAAAAAAAAQAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-06T03:46:16.016Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
               "Title": "FrmMain.cs",
               "DocumentMoniker": "C:\\Users\\Dave-\\OneDrive\\WeChatArticle\\C#\\\u5FAE\u4FE1\u516C\u4F17\u53F7\\SCADAPlatform\\SCADAPlatform\\FrmMain.cs",
               "RelativeDocumentMoniker": "SCADAPlatform\\FrmMain.cs",
               "ToolTip": "C:\\Users\\Dave-\\OneDrive\\WeChatArticle\\C#\\\u5FAE\u4FE1\u516C\u4F17\u53F7\\SCADAPlatform\\SCADAPlatform\\FrmMain.cs",
               "RelativeToolTip": "SCADAPlatform\\FrmMain.cs",
-              "ViewState": "AgIAABUAAAAAAAAAAAAAADEAAABPAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACMAAAA0AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-01-12T03:28:26.171Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 12,
               "Title": "CRCHelper.cs",
               "DocumentMoniker": "C:\\Users\\Dave-\\OneDrive\\WeChatArticle\\C#\\\u5FAE\u4FE1\u516C\u4F17\u53F7\\SCADAPlatform\\ModbusLib\\Helper\\CRCHelper.cs",
               "RelativeDocumentMoniker": "ModbusLib\\Helper\\CRCHelper.cs",
@@ -79,7 +191,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 9,
               "Title": "ModbusRTULib.cs",
               "DocumentMoniker": "C:\\Users\\Dave-\\OneDrive\\WeChatArticle\\C#\\\u5FAE\u4FE1\u516C\u4F17\u53F7\\SCADAPlatform\\ModbusLib\\Library\\ModbusRTULib.cs",
               "RelativeDocumentMoniker": "ModbusLib\\Library\\ModbusRTULib.cs",
@@ -87,12 +199,11 @@
               "RelativeToolTip": "ModbusLib\\Library\\ModbusRTULib.cs",
               "ViewState": "AgIAAA8BAAAAAAAAAAAswCUBAABEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-12T02:13:37.327Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-01-12T02:13:37.327Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 10,
               "Title": "IModbusRW.cs",
               "DocumentMoniker": "C:\\Users\\Dave-\\OneDrive\\WeChatArticle\\C#\\\u5FAE\u4FE1\u516C\u4F17\u53F7\\SCADAPlatform\\ModbusLib\\Interface\\IModbusRW.cs",
               "RelativeDocumentMoniker": "ModbusLib\\Interface\\IModbusRW.cs",
@@ -100,12 +211,11 @@
               "RelativeToolTip": "ModbusLib\\Interface\\IModbusRW.cs",
               "ViewState": "AgIAAAkAAAAAAAAAAAAAABsAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-12T02:02:27.513Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-01-12T02:02:27.513Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "FrmMain.cs [\u8BBE\u8BA1]",
               "DocumentMoniker": "C:\\Users\\Dave-\\OneDrive\\WeChatArticle\\C#\\\u5FAE\u4FE1\u516C\u4F17\u53F7\\SCADAPlatform\\SCADAPlatform\\FrmMain.cs",
               "RelativeDocumentMoniker": "SCADAPlatform\\FrmMain.cs",
@@ -117,7 +227,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 11,
               "Title": "SerialBase.cs",
               "DocumentMoniker": "C:\\Users\\Dave-\\OneDrive\\WeChatArticle\\C#\\\u5FAE\u4FE1\u516C\u4F17\u53F7\\SCADAPlatform\\ModbusLib\\Base\\SerialBase.cs",
               "RelativeDocumentMoniker": "ModbusLib\\Base\\SerialBase.cs",
@@ -125,12 +235,11 @@
               "RelativeToolTip": "ModbusLib\\Base\\SerialBase.cs",
               "ViewState": "AgIAAEUAAAAAAAAAAAAwwKwAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-10T09:43:50.735Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-01-10T09:43:50.735Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 13,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\Dave-\\OneDrive\\WeChatArticle\\C#\\\u5FAE\u4FE1\u516C\u4F17\u53F7\\SCADAPlatform\\SCADAPlatform\\Program.cs",
               "RelativeDocumentMoniker": "SCADAPlatform\\Program.cs",
